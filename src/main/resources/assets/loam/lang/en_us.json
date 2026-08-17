@@ -1,0 +1,13 @@
+{
+  "itemGroup.loam": "Loam",
+  "block.loam.example_block": "Example Block",
+  "item.loam.example_item": "Example Item",
+
+  "loam.configuration.title": "Loam Configs",
+  "loam.configuration.section.loam.common.toml": "Loam Configs",
+  "loam.configuration.section.loam.common.toml.title": "Loam Configs",
+  "loam.configuration.items": "Item List",
+  "loam.configuration.logDirtBlock": "Log Dirt Block",
+  "loam.configuration.magicNumberIntroduction": "Magic Number Text",
+  "loam.configuration.magicNumber": "Magic Number"
+}
