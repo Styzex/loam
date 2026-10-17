@@ -1,4 +1,4 @@
-package com.loam;
+package com.styzex.loam;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
