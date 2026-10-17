@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.loam.mixin",
+  "package": "com.styzex.loam.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [],
   "injectors": {
