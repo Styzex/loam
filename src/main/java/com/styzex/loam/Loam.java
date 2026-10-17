@@ -1,4 +1,4 @@
-package styzex.loam;
+package com.styzex.loam;
 
 import org.slf4j.Logger;
 
@@ -29,7 +29,7 @@ public class Loam {
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
-        styzex.loam.Blocks.BLOCKS.register(modEventBus);
+        com.loam.Blocks.BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         Items.ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
@@ -41,7 +41,7 @@ public class Loam {
         NeoForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
-        modEventBus.addListener(styzex.loam.Blocks::addCreative);
+        modEventBus.addListener(com.loam.Blocks::addCreative);
         modEventBus.addListener(VanillaFoodItems::ModifyFoods);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us

@@ -1,4 +1,4 @@
-package styzex.loam;
+package com.loam;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -20,7 +20,7 @@ public class Blocks {
     // Add the example block item to the building blocks tab
     public static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(styzex.loam.Blocks.EXAMPLE_BLOCK_ITEM);
+            event.accept(com.loam.Blocks.EXAMPLE_BLOCK_ITEM);
         }
     }
 }

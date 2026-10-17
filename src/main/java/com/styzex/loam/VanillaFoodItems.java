@@ -1,4 +1,4 @@
-package styzex.loam;
+package com.styzex.loam;
 
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.food.FoodProperties;

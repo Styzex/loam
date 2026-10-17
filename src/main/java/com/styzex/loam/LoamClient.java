@@ -1,4 +1,4 @@
-package styzex.loam;
+package com.loam;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
